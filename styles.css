@@ -18,6 +18,18 @@
     margin: 0 auto;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e2f8ec;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto-mono', monospace;
+}
+
 .intro {
     text-align: center;
 }
