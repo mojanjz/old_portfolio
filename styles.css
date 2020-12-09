@@ -1,10 +1,5 @@
-.cool-class {
-    font-weight: bold;
-    color: green;
-}
-
 #cool_id {
-    color: blue;
+    color: rgb(7, 7, 7);
 }
 
 .grid-table {
@@ -15,11 +10,11 @@
 
 .container {
     max-width: 840px;
-    margin: 0 auto;
+    margin: 96px auto;
 }
 
 body {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Roboto', monospace;
     background-color: #e2f8ec;
 }
 
@@ -30,8 +25,17 @@ h4 {
     font-family: 'Roboto-mono', monospace;
 }
 
+/* content divider*/
+
+hr {
+    border: 0;
+    margin: 48px 0;
+    height: 2px;
+    background-color: #f2fff8;
+}
+
 .intro {
-    text-align: center;
+    text-align: left;
 }
 
 .profile-picture {
@@ -51,7 +55,7 @@ h4 {
 }
 
 .about-section {
-    text-align: center;
+    text-align: left;
 }
 
 .about-list {
@@ -67,7 +71,7 @@ h4 {
 
 /* Project Sections */
 .heading {
-    text-align: center;
+    text-align: left;
 }
 
 .projects-grid {
@@ -88,7 +92,7 @@ h4 {
 
 .contact {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
 }
 
 .links {
@@ -104,4 +108,50 @@ h4 {
     .contact {
         grid-template-columns: 100%;
     }
+}
+
+/* Style all font awesome icons */
+/* .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+} */
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-github {
+    background: #050505;
+    color: white;
+}
+
+/* Linkedin */
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+/* Email */
+.fa-envelope-open {
+    background: #00b57f;
+    color: white;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
