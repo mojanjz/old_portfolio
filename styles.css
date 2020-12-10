@@ -81,6 +81,16 @@ hr {
 
 .project-image {
     justify-self: center;
+    width: 250px;
+    height: 250px;
+}
+
+.project-button {
+    justify-self: center;
+    width: 250px;
+    height: 250px;
+    background-color: transparent;
+    border: none;
 }
 
 @media (max-width: 650px) {
