@@ -236,3 +236,24 @@ hr {
     background-color: #325f46;
     color: white;
 }
+
+/* Header */
+.header {
+    padding: 140px;
+    /* some padding */
+    text-align: center;
+    /* center the text */
+    color: white;
+    /* white text color */
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+    font-size: 40px;
+}
+
+@media screen and (max-width:600px) {
+    .header {
+        display: none;
+    }
+}
